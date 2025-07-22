@@ -2,7 +2,6 @@ package br.com.dio.ui.custom.panel;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionListener;
 
 public class MainPanel extends JPanel {
 
