@@ -24,7 +24,8 @@ public class Main {
 
     public static void main(String[] args) {
         final var positions = Stream.of(args)
-                .collect(toMap(k -> k.split(";")[0],
+                .collect(toMap(
+                        k -> k.split(";")[0],
                         v -> v.split(";")[1]
                 ));
 
